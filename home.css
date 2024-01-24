@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('space3.jpg'); 
+    background-size: contain;
+    height: 500px;
+}
+
+.glass-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.05); 
+    border-radius: 10px;
+    padding: 20px;
+    left: 50px;
+    right: 50px;
+    position: static;
+    top: 10px;
+    bottom: 30px;
+    height: 500px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    position: static;
+    
+}
+
+.logo { 
+    width:200px;
+    height: 200px;
+    
+}
+.about ,.projects ,.philosophy {
+    font-size: 9px;
+    color: white;
+    font-family: Mohave ,ARIAL;
+    margin-right: 15PX;
+}
+.categories {
+    display: flex;
+    justify-content: end;
+    flex: 1;
+    align-items: center;
+   
+}
+.slogan-p {
+    
+    color: white;
+    width: 220px;
+    margin-left: 32px;
+    
+}
+.slogan {
+    display: inline-block;
+    font-family: Mohave ,ARIAL;
+    margin-top: 30px;
+    height: 100px;
+    
+}
+.decor {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+}
+.describe {
+    margin-top: 20px;
+    margin-left: 32px;
+    color: white;
+    font-family: Mohave;
+    width: 300px;
+    font-size: 7px;
+}
+a {
+    color: white;
+    cursor: pointer;
+    
+}
+.vocabulary {
+    margin-left: 32px;
+    
+}
+.first ,.second ,.third {
+    font-family: Mohave ,ARIAL;
+    color: white;
+    font-size: 12px;
+    
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 32px;
+}
+.html-logo ,.css-logo ,.js-logo {
+    width: 70px;
+    height: 70px;
+    opacity: 0.3;
+    transition: opacity 0.3s;
+    cursor: pointer;
+    
+} 
+.html-logo:hover, .css-logo:hover, .js-logo:hover {
+    
+    opacity: 1; 
+  }
+
+
+
+
+
+    

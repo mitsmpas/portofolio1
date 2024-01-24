@@ -1,0 +1,31 @@
+.project {
+    background-color: transparent;
+    display: flex;
+    height: 200px;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.project-1, .project-2, .project-3 {
+    background-color: gray;
+    height: 150px;
+    width: 120px;
+    cursor: pointer;
+    
+}
+.project-1:hover, .project-2:hover, .project-3:hover {
+    background-color: gray;
+    height: 170px;
+    width: 130px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.project-1 {
+    font-family: Mohave ,ARIAL;
+    color: black;
+    text-align: center;
+    background-image: url('calculator1.jpeg');
+    background-size:cover;
+}

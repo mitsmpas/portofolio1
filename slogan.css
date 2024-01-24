@@ -1,0 +1,56 @@
+:root {
+    --bg-color:white;
+    --typewriterSpeed: 6s;
+    --typewriterCharacters: 24;
+  }
+  
+  
+  
+  .slogan-p {
+    height: fit-content;
+    width: max-content;
+   
+  }
+  
+  
+  
+  
+  .slogan-p::before {
+    background: var(--bg-color);
+    animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 1s forwards;
+  }
+  
+  .slogan-p::after {
+    width: 0.125em;
+    background: white;
+    animation: typewriter var(--typewriterSpeed)
+        steps(var(--typewriterCharacters)) 1s forwards,
+      blink 750ms steps(var(--typewriterCharacters)) infinite;
+  }
+  
+  
+  
+  @keyframes typewriter {
+    to {
+      left: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    to {
+      background: transparent;
+    }
+  }
+  
+  .slogan-p::before,
+  .slogan-p::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}  
+  
+  

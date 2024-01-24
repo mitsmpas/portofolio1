@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="slogan2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mohave&family=Roboto&display=swap" rel="stylesheet">
+    
+    <title>Dimitris Portofolio</title>
+</head>
+<body>
+    <div class="glass-container">
+        <div class="header">
+            <img src="logo.png" class="logo">
+            <div class="categories">
+             <div class="about"><a href="index.html">Home</a></div>
+             <div class="projects"><a href="projects.html">Projects</a></div>
+             <div class="philosophy"><a href="Philosophy.html">Philosophy</a></div>
+            </div>
+            
+        </div>
+        <div class="slogan"><p class="slogan-p">Weaving Dreams into Digital Realities.</p>
+       <!--<div class="decor"><img src="spaceman.png" class="spaceman"></div>-->
+        </div>
+        <div class="vocabulary">
+            <div class="first">Front-End Developer</div> 
+            <div class="second">[ fruhnt-end dih-vel-uh-per ]</div>
+            <div class="third">/noun/</div>
+        </div>
+        <div class="describe">A front-end developer is the architect of the digital realm, the visionary who transforms static designs into interactive, user-centric web experiences. Armed with an array of programming languages and a deep understanding of user interface (UI) and user experience (UX) principles, a front-end developer breathes life into websites and applications.
+
+            With a keen eye for design, they ensure that every pixel is perfectly placed, every element meticulously styled, and every interaction flawlessly executed. They are the bridge between the creative minds of designers and the practical world of code.</div>
+        <div class="logos">
+            <div class="html"><img src="HTML5_logo.png" class="html-logo"></div>
+            <div class="css"><img src="CSS3.png" class="css-logo"></div>
+            <div class="js"><img src="JavaScript-logo.png" class="js-logo"></div>
+        </div>
+    </div> 
+    <script>
+        const sloganText = document.querySelector('.slogan-p');
+        const textWidth = sloganText.scrollWidth;
+
+        sloganText.style.width = textWidth + 'px';
+        sloganText.style.borderRight = 'none';
+    </script>
+    
+</body>
+</html>
